@@ -1,0 +1,82 @@
+@font-face {
+    font-family: tangerine;
+    src:url(Tangerine/Tangerine-Regular.ttf);
+}
+/* Navigation bar */
+nav {
+list-style-type: none;
+margin: auto;
+color: #191970;
+background-color: #fffaf0;
+opacity: .6;
+display: flex;
+justify-content: right;
+
+}
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 8pt;
+    
+}
+
+li a {
+    margin: 25px;
+    text-decoration: none;
+    color: #191970;
+    font-family: tangerine;  
+    font-weight: bold;
+    font-size: 40pt;
+}
+
+/* body and main content */
+body {
+    width:100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(toile.jpg);
+    background-size: auto 100%;
+
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    color: #191970;
+}
+
+/* Decorative accents */
+#walltrim {
+    background-image: url(walltrimcopy.png);
+    height: 80px;
+    background-size: auto 100%;
+}
+
+.box {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    opacity: .95;
+
+}
+
+.footer {
+    background-color: #fffaf0;
+    opacity: .6;
+    padding: 40px;
+}
+
+.baseboard {
+    background-image: url(walltrimcopy3copy.jpg);
+    height: 6px;
+    background-size: auto 100%;
+}
+.wrapper {
+    position: relative;
+
+}
+
+
